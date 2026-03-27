@@ -1,6 +1,4 @@
-<div align="center">
 ![AppIcon](./AppIcon.png)
-</div>
 
 <div align="center">
 \[Revision history\]
@@ -14,7 +12,7 @@
 = Contents =
 </div>
 
-1. Business purpose ......................................................................
+1. Business purpose ---
 2. System context diagram ................................................................
 3. Use case list .........................................................................
 4. Concept of operation ..................................................................

@@ -4,62 +4,89 @@ Re: Mind - 감정 일기장
 리버전
 
 
-[1. Business purpose]
+**1. Business purpose**
 
-[2. System context diagram]
+**2. System context diagram**
 
 [user] <---> [system] <---> [DB]
 
 
-[3. Use case list]
+**3. Use case list**
 
 1) 회원가입
-user
-id와 비밀번호를 입력하고 
+
+|Actor|user|
+|:------:|:------|
+|Description|id와 비밀번호를 입력하고 |
 
 2) 로그인
-user
 
-3) 일기 작성
-user
+|Actor|user|
+|:------:|:------|
+|Description|txt|
 
-4) 감정 추가
-user
+3) 비밀번호 변경
 
-5) 사건 추가
-user
+|Actor|user|
+|:------:|:------|
+|Description|txt|
 
-6) 이미지 추가
+4) 일기 작성
 user
+|Actor|user|
+|:------:|:------|
+|Description|txt|
 
-7) 저장
+5) 감정 추가
 user
+|Actor|user|
+|:------:|:------|
+|Description|txt|
+
+6) 사건 추가
+user
+|Actor|user|
+|:------:|:------|
+|Description|txt|
+
+7) 이미지 추가
+|Actor|user|
+|:------:|:------|
+|Description|txt|
+
+8) 저장
+
+|Actor|user|
+|:------:|:------|
+|Description|txt|
 유저가 작성한 일기를 저장한다.
 
-8) 불러오기
-user
+9) 불러오기
 
-9) 일기 조회
-user
-유저가 그동안 작성한 일기들을 조회한다.
+|Actor|user|
+|:------:|:------|
+|Description|txt|
 
-10) 유저 정보 조회
-user
+10) 일기 조회
 
-11) 회원 탈퇴
-user
+|Actor|user|
+|:------:|:------|
+|Description|유저가 그동안 작성한 일기들을 조회한다.|
 
-12) 문의
-user
+11) 유저 정보 조회
 
-4. Concept of operation
+|Actor|user|
+|:------:|:------|
+|Description|txt|
 
-|Purpose|txt|
-|------|------|
-|Approach|txt|
-|Dynamics|txt|
-|Goals|txt|
+12) 회원 탈퇴
 
+|Actor|user|
+|:------:|:------|
+|Description|txt|
+
+
+**4. Concept of operation**
 
 1. 회원가입
 

@@ -1,24 +1,25 @@
 ![AppIcon](./AppIcon.png)
 
-<div align="center">
-\[Revision history\]
-</div>
+[Revision history]
 
 |Revision date|Version #|Description|Author|
 |:------:|:------:|:------:|:------:|
-|_|_|_|_|
+||0.3.3|로그인, 회원가입 기능 완성||
+||0.6.6|일기를 작성하는 기능 완성||
+||0.9.9|일기를 저장하고 불러오는 기능 완성||
+||1.0.0|전체적인 기능 완성||
 
 <div align="center">
 = Contents =
 </div>
 
-1. Business purpose ---
-2. System context diagram ................................................................
-3. Use case list .........................................................................
-4. Concept of operation ..................................................................
-5. Problem statement .....................................................................
-6. Glossary ..............................................................................
-7. References ............................................................................
+1. Business purpose
+2. System context diagram
+3. Use case list
+4. Concept of operation
+5. Problem statement
+6. Glossary
+7. References
 
 ---
 
@@ -130,7 +131,7 @@
 
 |Purpose|사용자가 원할때 비밀번호를 변경할 수 있어야 한다.|
 |:------:|:------|
-|Approach||
+|Approach|입력받은 새 비밀번호로 비밀번호를 갱신되게 한다.|
 |Dynamics|자신의 비밀번호를 변경하고 싶은 경우.|
 |Goals|사용자의 비밀번호를 변경하는 기능을 구현한다.|
 

@@ -32,24 +32,25 @@ Re: Mind - 감정 일기장
 |Description|txt|
 
 4) 일기 작성
-user
+
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
 5) 감정 추가
-user
+
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
 6) 사건 추가
-user
+
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
 7) 이미지 추가
+
 |Actor|user|
 |:------:|:------|
 |Description|txt|
@@ -84,8 +85,8 @@ user
 |Actor|user|
 |:------:|:------|
 |Description|txt|
-
-
+\n
+\n
 **4. Concept of operation**
 
 1. 회원가입

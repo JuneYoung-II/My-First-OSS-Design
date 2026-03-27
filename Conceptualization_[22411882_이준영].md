@@ -19,73 +19,73 @@ Re: Mind - 감정 일기장
 |:------:|:------|
 |Description|id와 비밀번호를 입력하고 |
 
-2) 로그인
+2\) 로그인
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-3) 비밀번호 변경
+3\) 비밀번호 변경
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-4) 일기 작성
+4\) 일기 작성
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-5) 감정 추가
+5\) 감정 추가
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-6) 사건 추가
+6\) 사건 추가
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-7) 이미지 추가
+7\) 이미지 추가
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-8) 저장
+8\) 저장
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 유저가 작성한 일기를 저장한다.
 
-9) 불러오기
+9\) 불러오기
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-10) 일기 조회
+10\) 일기 조회
 
 |Actor|user|
 |:------:|:------|
 |Description|유저가 그동안 작성한 일기들을 조회한다.|
 
-11) 유저 정보 조회
+11\) 유저 정보 조회
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
 
-12) 회원 탈퇴
+12\) 회원 탈퇴
 
 |Actor|user|
 |:------:|:------|
 |Description|txt|
-
+  
 **4. Concept of operation**
 
 1. 회원가입

@@ -1,5 +1,4 @@
-Re: Mind - 감정 일기장
-
+![AppIcon](./AppIcon.png)
 
 리버전
 
@@ -10,8 +9,6 @@ Re: Mind - 감정 일기장
 ---
 
 **2. System context diagram**
-
-[user] <---> [system] <---> [DB]
 
 ![SystemContextDiagram](./SystemContextDiagram.png)
 

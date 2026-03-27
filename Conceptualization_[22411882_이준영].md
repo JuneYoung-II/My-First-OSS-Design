@@ -85,7 +85,8 @@ Re: Mind - 감정 일기장
 |Actor|user|
 |:------:|:------|
 |Description|txt|
-  
+
+
 **4. Concept of operation**
 
 1. 회원가입

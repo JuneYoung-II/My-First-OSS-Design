@@ -54,6 +54,13 @@ user
 
 [4. Concept of operation]
 
+|------|---|
+|Purpose|txt|
+|Approach|txt|
+|Dynamics|txt|
+|Goals|txt|
+
+
 1. 회원가입
 
 앱 시작시 id가 없거나 id를 추가하고 싶은 경우 회원가입을 할 수 있게 한다.

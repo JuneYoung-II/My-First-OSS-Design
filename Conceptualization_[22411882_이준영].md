@@ -13,7 +13,7 @@ Re: Mind - 감정 일기장
 
 **3. Use case list**
 
-1) 회원가입
+1\) 회원가입
 
 |Actor|user|
 |:------:|:------|
@@ -85,8 +85,7 @@ Re: Mind - 감정 일기장
 |Actor|user|
 |:------:|:------|
 |Description|txt|
-\n
-\n
+
 **4. Concept of operation**
 
 1. 회원가입
@@ -185,10 +184,7 @@ Re: Mind - 감정 일기장
 |Dynamics|txt|
 |Goals|회원 정보를 삭제하고 싶은 경우|
 
-
-
-
-[5. Problem statement]
+**5. Problem statement**
 
 1. 데이터베이스 및 서버의 숙련도 부족
 
@@ -196,13 +192,12 @@ Re: Mind - 감정 일기장
 
 3. 최적화
 
+**6. Glossary**
 
-[6. Glossary]
+|용어|설명|
+|:------:|:------|
+|감정|txt|
+|사건|txt|
+|이미지|txt|
 
-감정
-
-사건
-
-이미지
-
-[7. References]
+**7. References**

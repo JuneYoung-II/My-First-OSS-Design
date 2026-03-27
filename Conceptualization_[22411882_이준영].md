@@ -3,13 +3,17 @@ Re: Mind - 감정 일기장
 
 리버전
 
+---
 
 **1. Business purpose**
+
+---
 
 **2. System context diagram**
 
 [user] <---> [system] <---> [DB]
 
+---
 
 **3. Use case list**
 
@@ -17,56 +21,55 @@ Re: Mind - 감정 일기장
 
 |Actor|user|
 |:------:|:------|
-|Description|id와 비밀번호를 입력하고 |
+|Description|id와 비밀번호를 입력하고 id가 중복이 아니면서 비밀번호가 조건을 만족 한다면 id와 비밀번호를 서버에 등록한다.|
 
 2\) 로그인
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|id와 비밀번호를 입력하고 id가 서버에 등록이 되었으며 id와 매칭되는 비밀번호를 입력하였으면 그 회원의 정보로 서버에 접속한다.|
 
 3\) 비밀번호 변경
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|새로운 비밀번호를 입력하고 비밀번호 확인란에 새로운 비밀번호와 일치한 비밀번호를 입력하면 그것으로 사용자의 비밀번호를 갱신한다.|
 
 4\) 일기 작성
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|감정 일기를 작성할 수 있는 창을 연다.|
 
 5\) 감정 추가
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|자신이 느낀 감정 카테고리에서 선택하거나 적을 수 있는 칸과 감정에 대한 세부적인 작성할 수 있는 칸을 추가한다.|
 
 6\) 사건 추가
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|자신이 어떤 이벤트에서 그런 감정을 느꼈는지를 적을 수 있는 칸을 추가한다.|
 
 7\) 이미지 추가
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|사진파일을 삽입할 수 있는 칸을 추가한다.|
 
 8\) 저장
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
-유저가 작성한 일기를 저장한다.
+|Description|유저가 작성한 일기를 저장한다.|
 
 9\) 불러오기
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|유저가 작성한 일기를 보거나 편집한다.|
 
 10\) 일기 조회
 
@@ -78,15 +81,16 @@ Re: Mind - 감정 일기장
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|유저에 대한 정보를 조회한다.|
 
 12\) 회원 탈퇴
 
 |Actor|user|
 |:------:|:------|
-|Description|txt|
+|Description|비밀번호를 입력하고 일치한 비밀번호를 입력했다면 유저에 대한 정보를 삭제한다.|
 
-ㅤ
+---
+
 **4. Concept of operation**
 
 1. 회원가입
@@ -109,7 +113,7 @@ Re: Mind - 감정 일기장
 
 |Purpose|사용자가 원할때 비밀번호를 변경할 수 있어야 한다.|
 |:------:|:------|
-|Approach|로그인 되어있을 때 비밀번호를 바꾸는 버튼을 눌렀을 때 새로운 비밀번호를 입력하고 비밀번호 확인란에 새로운 비밀번호와 일치한 비밀번호를 입력하면 그것으로 사용자의 비밀번호를 갱신한다.|
+|Approach||
 |Dynamics|자신의 비밀번호를 변경하고 싶은 경우.|
 |Goals|사용자의 비밀번호를 변경하는 기능을 구현한다.|
 
@@ -185,6 +189,8 @@ Re: Mind - 감정 일기장
 |Dynamics|txt|
 |Goals|회원 정보를 삭제하고 싶은 경우|
 
+---
+
 **5. Problem statement**
 
 1. 데이터베이스 및 서버의 숙련도 부족
@@ -193,6 +199,8 @@ Re: Mind - 감정 일기장
 
 3. 최적화
 
+---
+
 **6. Glossary**
 
 |용어|설명|
@@ -200,5 +208,7 @@ Re: Mind - 감정 일기장
 |감정|txt|
 |사건|txt|
 |이미지|txt|
+
+---
 
 **7. References**

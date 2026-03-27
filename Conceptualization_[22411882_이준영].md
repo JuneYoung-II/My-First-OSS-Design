@@ -54,6 +54,7 @@ user
 
 [4. Concept of operation]
 
+|a|b|
 |------|---|
 |Purpose|txt|
 |Approach|txt|

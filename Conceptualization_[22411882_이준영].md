@@ -13,6 +13,8 @@ Re: Mind - 감정 일기장
 
 [user] <---> [system] <---> [DB]
 
+![SystemContextDiagram](./SystemContextDiagram.png)
+
 ---
 
 **3. Use case list**
